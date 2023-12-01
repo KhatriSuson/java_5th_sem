@@ -14,8 +14,10 @@ class Mom {
 
 public class g_multiple_problem {
     public static void main(String[] args) {
-        Son s1 = new Son();
-        s1.helloSon();
-        s1.hiSon();
+        Mom m1 = new Mom();
+        m1.hiSon();
+
+        Dad d1 = new Dad();
+        d1.helloSon();
     }
 }
